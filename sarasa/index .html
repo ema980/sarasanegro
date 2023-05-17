@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./estilos.css">
+    <title>Tienda</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="bienvenida">
+                <!--<h2 id="top" style="font-size: 50px;">Nuestra Historia</h2>-->
+            </div>
+            <div class="logo-pestanas">
+         <div class="desplegable" style="margin-top: 1.6rem";>
+                    <i class="bi bi-list" style="cursor: pointer; color:#fff; font-size: 40px; position: relative;top: 0,5rem;"></i>
+                    <ul class="oculto">
+                        <li>enlace 1</li>
+                        <li>enlace 2</li>
+                        <li>enlace 3</li>
+                    </ul>
+                </div>
+                <div class="navegador"f>
+                    <ul>
+                        <li><a href="/menu.html">Menú </a></li>
+                        <li><a href="/ubicacion.html">Ubicación</a></li>
+                        <li><a href="/reserva.html">Reserva</a></li>
+                        <li><a href="/eventos.html">Eventos</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="titulos">
+            <h1>Nuestra Historia</h1>
+            <h3>Patricio y Fernanda se formaron profesionalmente en Europa. Primero pasaron por la cocina del vasco Martín Berasategui, uno de los mejores chefs del mundo... leer más</h3>
+        </div>
+        <div class="imagenes">
+            <div class="contenedor-imagen">
+                <div class="contenedor-descrip">
+                    <div class="imagen">
+                        <img src="./img/comedor.jpeg">
+                    </div>
+                </div>
+                <!--<p>Breve descripción</p>-->
+            </div>
+            <div class="contenedor-imagen">
+                <div class="contenedor-descrip">
+                    <div class="imagen">
+                        <img src="./img/plato.jpeg">
+                    </div>
+                </div>
+                <!--<p>Breve descripción</p>-->
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="logo-contenedor">
+            <img class="logo" src="./img/logo.jpeg">
+        </div>
+        <div class="pie-redes">
+            <!--<i class="bi bi-clock"><a href=""> Horarios</a></i>-->
+            <input type="radio" id="mostrar" name="modal">
+            <label for="mostrar" style="cursor: pointer;"><i class="bi bi-clock" target="_blank" style="text-decoration: none; color:#fff"> Ver Horarios</i></label>
+            <input type="radio" id="cerrar" name="modal">
+            <div id="modal">
+                <p>Poner Horario acá</p>
+                <button class="close"><label style="cursor: pointer;" for="cerrar"> X</label></button>
+            </div>
+            <i class="bi bi-instagram" style="text-decoration: none; color:#fff" ><a href="https://www.instagram.com/sarasanegro/" target="_blank" style="text-decoration: none; color:#fff"> Instagram</a></i>
+            <i class="bi bi-whatsapp" target="_blank" style="text-decoration: none; color:#fff"> Whatsapp </i>
+        </div>
+    </footer>
+    <!--<div class="pie-boton">
+        <button class="arriba"><a href="#top" class="pie">Volver arriba</a></button>
+    </div>-->
+    <br>
+</body>
+</html>
